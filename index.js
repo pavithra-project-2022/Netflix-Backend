@@ -7,7 +7,7 @@ const userRoute = require("./routes/users");
 const movieRoute = require("./routes/movies");
 const listRoute = require("./routes/lists");
 const cors = require('cors')
-
+//mongo uri
 const URL = "mongodb+srv://pavi:pavi@cluster0.qpbvc.mongodb.net/netflix?retryWrites=true&w=majority"
 
 dotenv.config();
