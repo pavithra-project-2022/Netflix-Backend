@@ -11,9 +11,7 @@ const cors = require('cors')
 const URL = "mongodb+srv://pavi:pavi@cluster0.qpbvc.mongodb.net/netflix?retryWrites=true&w=majority"
 
 dotenv.config();
-app.use(cors({
-  origin: "*",
-}))
+app.use(cors())
 
  mongoose
   .connect(URL, {
